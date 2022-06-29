@@ -21,6 +21,7 @@ export type ElementOverlayOptions = {
   className?: string;
   style?: ElementOverlayStyleOptions;
 };
+
 export const getElementBounds = (el: HTMLElement): BoundingBox => {
   const rect = el.getBoundingClientRect();
   return {
